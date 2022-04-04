@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="#" method="get">
+      <h1>Заголовок формы</h1>
+      <div>
+        <p>Имя</p>
+        <input
+          tabindex="1"
+          autofocus
+          required
+          maxlength="30"
+          placeholder="Имя"
+          type="text"
+          name="User"
+          id=""
+        />
+      </div>
+      <div>
+        <p>Email</p>
+        <input
+          tabindex="2"
+          required
+          placeholder="Email"
+          maxlength="30"
+          type="email"
+          name="email"
+          id=""
+        />
+      </div>
+      <div>
+        <p>Телефон</p>
+        <input tabindex="3" required type="tel" name="Userphone" id="" />
+      </div>
+      <div>
+        <p>Пароль</p>
+        <input tabindex="4" required type="password" name="Userpass" id="" />
+      </div>
+      <div>
+        <p>Возраст</p>
+        <div><input type="radio" name="Userage" id="" />0-25 лет</div>
+        <div><input type="radio" name="Userage" id="" />26-40 лет</div>
+        <div><input type="radio" name="Userage" id="" />41-55 лет</div>
+        <div><input type="radio" name="Userage" id="" />56-99 лет</div>
+        <div>
+          <p>Машина</p>
+          <div><input type="radio" name="car" id="" />audi</div>
+          <div><input type="radio" name="car" id="" />bmw</div>
+          <div><input type="radio" name="car" id="" />lada</div>
+        </div>
+        <div>
+          <p>Профит</p>
+          <div>
+            <input
+              value="20"
+              min="0"
+              max="100"
+              type="range"
+              name="profit"
+              id=""
+            />
+          </div>
+        </div>
+        <div>
+          <p>Города</p>
+          <div>
+            <select>
+              <option value="city">Киев</option>
+              <option value="city">Днепр</option>
+              <option value="city">Одесса</option>
+              <option value="city">Львов</option>
+            </select>
+          </div>
+        </div>
+        <div>
+          <p>Комментарии</p>
+          <textarea
+            tabindex="5"
+            placeholder="Комментарий"
+            name=""
+            id=""
+            cols="20"
+            rows="5"
+          ></textarea>
+        </div>
+        <div>
+          <a href="" target="_blank"
+            >Согласие на обработку персональных данных</a
+          >
+        </div>
+        <div>
+          <input type="submit" value="Отправить" />
+          <input type="reset" value="Очистить" />
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
