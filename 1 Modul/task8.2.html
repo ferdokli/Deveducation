@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modul 1. Lesson 5. Form</title>
+    <link
+      rel="shortcut icon"
+      href="/1 Modul/img/favicon_smile.ico"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <div class="container">
+        <div class="form-wrapper">
+          <form action="handle.php" method="post">
+            <h1>Заголовок формы</h1>
+            <label for="Имя"
+              >Имя
+              <input
+                tabindex="1"
+                autofocus
+                required
+                minlength="3"
+                maxlength="30"
+                placeholder="Имя"
+                type="text"
+                name="User"
+            /></label>
+            <div>
+              <label for="Email"
+                >Email
+                <input
+                  tabindex="2"
+                  required
+                  placeholder="Email"
+                  maxlength="30"
+                  type="email"
+                  name="email"
+                />
+              </label>
+            </div>
+            <div>
+              <label for="tel">Телефон
+                <input tabindex="3" required type="tel" name="Userphone" />
+              </label>
+              
+            </div>
+            <div>
+              <label for="pass">Пароль
+                <input tabindex="4" required type="password" name="Userpass" />
+              </label>              
+            </div>
+            <div>
+              <h2>Возраст</h2>
+              <label><input type="radio" name="Userage" />0-25 лет</label>
+              <label><input type="radio" name="Userage" />26-40 лет</label>
+              <label><input type="radio" name="Userage" />41-55 лет</label>
+              <label><input type="radio" name="Userage" />56-99 лет</label>        
+            </div>          
+            <div>
+                <h2>Машина</h2>
+                <label><input type="checkbox" name="car" />audi</label>
+                <label><input type="checkbox" name="car" />bmw</label>
+                <label><input type="checkbox" name="car" />lada</label>                
+              </div>
+              <div>
+                <label for="Возраст"><input
+                  value="20"
+                  min="0"
+                  max="100"
+                  type="range"
+                  name="profit"
+                /></label>                                
+                
+              </div>
+              <div>
+                <h2>Города</h2>
+                
+                  <select>
+                    <option value="city">Киев</option>
+                    <option value="city">Днепр</option>
+                    <option value="city">Одесса</option>
+                    <option value="city">Львов</option>
+                  </select>
+                
+              </div>
+              <div>
+                <label for="Комментарий">
+                  <textarea
+                  tabindex="5"
+                  placeholder="Комментарий"
+                  name=""
+                  cols="20"
+                  rows="5"
+                ></textarea>
+                </label>                
+              </div>
+              <div>
+                <input required type="checkbox" name="">Я согласен на 
+                <a href="" target="_blank"
+                  >обработку персональных данных</a
+                >
+                <br />
+                <br />
+              </div>
+              <div>
+                <input type="submit" value="Отправить" />
+                <input type="reset" value="Очистить" />
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
