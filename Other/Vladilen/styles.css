@@ -89,3 +89,30 @@ a:active {
   margin-bottom: 15px 20px;
   border-radius: 28px;
 }
+
+.list {
+  padding: 0 20px;
+}
+
+.list li {
+  color: #86898f;
+  margin-bottom: 10px;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  padding-bottom: 10px;
+}
+
+/* Псевдоэлементы */
+.table td:nth-child(2),
+.table td:nth-child(3) {
+  color: #86898f;
+}
+
+/* .table tr:nth-child(odd) {
+  background: red;
+} */
