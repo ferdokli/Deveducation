@@ -44,3 +44,28 @@ a:hover {
 .content-img__img {
   width: 100%;
 }
+
+.Item-info h2 {
+  font-size: 36px;
+  line-height: 30px;
+  font-weight: 600px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.Item-info__text {
+  width: 650px;
+}
+
+.Item-info__img {
+  width: 850px;
+}
+
+.item-preim h2 {
+  font-size: 26px;
+  line-height: 30px;
+  font-weight: 600px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-align: center;
+}
