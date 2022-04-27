@@ -69,3 +69,39 @@ a:hover {
   margin-bottom: 60px;
   text-align: center;
 }
+
+.item-preim hr {
+  border: none; /* Убираем границу */
+  background-color: #2980b9; /* Цвет линии */
+  height: 3px; /* Толщина линии */
+  width: 100px;
+}
+
+.item-preim__news p {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 400px;
+  margin: 20px;
+  text-align: center;
+  width: 200px;
+  height: 150px;
+  color: white;
+  text-shadow: 2px 2px 10px black;
+}
+
+.item-otz h2 {
+  font-size: 36px;
+  line-height: 30px;
+  font-weight: 600px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.item-otz img {
+  width: 300px;
+}
+
+.item-otz figcaption {
+  font-size: 16px;
+}
